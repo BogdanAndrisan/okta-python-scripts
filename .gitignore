@@ -1,0 +1,8 @@
+#General
+*.csv
+*.json
+*.txt
+*.pyc
+Data.py
+Python.py
+Hashing.py
