@@ -4,7 +4,7 @@ import sys
 import requests
 import json
 
-import Data # proprietary data container, replace with your own
+import Data # data container, replace with your own
 
 orgName = Data.orgName # replace with your own
 apiKey = Data.apiKey # provide your own API token

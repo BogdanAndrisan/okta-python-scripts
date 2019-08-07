@@ -5,8 +5,10 @@ import sys
 import csv
 import string
 
-orgName = "subdomain.okta"
-apiKey = ""
+import Data # data container, replace with your own
+
+orgName = Data.orgName # replace with your own
+apiKey = Data.apiKey # provide your own API token
 api_token = "SSWS " + apiKey
 
 headers = {'Accept': 'application/json',

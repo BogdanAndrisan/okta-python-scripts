@@ -4,8 +4,10 @@ import sys
 import requests
 import json
 
-orgName = "subdomain.okta" # replace with your own subdomain here
-apiKey = "  # provide your own API token
+import Data # data container, replace with your own
+
+orgName = Data.orgName # replace with your own
+apiKey = Data.apiKey # provide your own API token
 groupId = ""  # provide the groupId
 
 api_token = "SSWS " + apiKey
