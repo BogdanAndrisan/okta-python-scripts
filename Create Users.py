@@ -30,8 +30,8 @@ def CreateUsers():
                     "profile": {
                         "firstName": "Python" + str(x),
                         "lastName": "Test" + str(x),
-                        "email": "python" + str(x) + "@tosatsu.com",
-                        "login": "python" + str(x) + "@tosatsu.com"
+                        "email": "python" + str(x) + "@mydomain.com",
+                        "login": "python" + str(x) + "@mydomain.com"
                     },
                     "credentials": {
                         "password" : { "value": "Password1!" },
